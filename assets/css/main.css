@@ -27,7 +27,7 @@ a {
     color: var(--dark-color);
 }
 .carousel.product img {
-    max-height: 300px;
+    max-height: 350px;
 }
 .carousel-control-next, .carousel-control-prev {
     background-color: var(--orange-color);
@@ -325,6 +325,11 @@ a.socialIcon:hover, .socialHoverClass {
     font-size: 55px;
 }
 
+/* login */
+.form-card {
+    width: 50%;
+}
+
 /* medium query */
 @media screen and (max-width: 992px) {
     .solid-nav {
@@ -332,5 +337,20 @@ a.socialIcon:hover, .socialHoverClass {
     }
     .slide-logo {
         display: none;
+    }
+    .form-card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .form-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .inputs .form-control {
+        width: 100%;
     }
 }
