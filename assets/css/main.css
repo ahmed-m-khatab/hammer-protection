@@ -330,6 +330,11 @@ a.socialIcon:hover, .socialHoverClass {
     width: 50%;
 }
 
+/* policy */
+.policy-row {
+    height: 575px;
+}
+
 /* medium query */
 @media screen and (max-width: 992px) {
     .solid-nav {
@@ -341,6 +346,10 @@ a.socialIcon:hover, .socialHoverClass {
     .form-card {
         width: 80%;
     }
+    .policy-row {
+        height: auto;
+    }
+    
 }
 
 @media screen and (max-width: 650px) {
